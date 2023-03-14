@@ -1,0 +1,110 @@
+.contenedor-testimonio{
+    border-color: black;
+    border-radius: 1cm;
+    width: 1170px;
+    height: 368px;
+    margin: 2cm auto auto auto;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 0 3px 13px 1 px rgb(0 0 0 / 9%);
+    transition: width 1s ease-in-out
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor-testimonio {
+    max-width: 400px;
+    padding: 10px;
+  }
+}
+
+
+.contenedor-testimonio:hover{
+     
+    width: 1370px;
+    display: flex;
+    align-items: center;
+  
+}
+
+
+.imagen-testimonio{
+border-radius: 1cm;
+    height: 100%;
+    width: auto;
+    transition: border 0.5s
+     ease-out .5s,transform 0.5s ease-out .5s;
+
+}
+.imagen-testimonio:hover{
+  border: 2px solid ;
+  transform: scale(1.1);
+
+}
+.fab.fa-instagram {
+    color: #e1306c; /* Establecer el color del icono a rosa */
+  }
+  
+.contenedor-texto-testimonio{
+    text-align: center;
+    font-size: 19px;
+    padding: 40px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: rgb(49, 61, 72);
+    
+}
+
+
+.instagram {
+   background-color: transparent;
+   border: none;
+   color:#ffffff ;
+   font-size: 1cm;
+    cursor: pointer; /* Cambiar el cursor al hacer hover en el botón */
+  }
+  
+ 
+  .instagram i {
+    color: #c856b1;
+    margin-right: 10px; /* Establecer el margen derecho del icono */
+  }
+
+  .facebook{
+    background-color: transparent;
+   border: none;
+   color:#ffffff ;
+   font-size: 1cm;
+    cursor: pointer;
+  }
+  .facebook i {
+    color: #3b3e82;
+    margin-right: 10px; /* Establecer el margen derecho del icono */
+  }
+
+
+.nombre-testimonio{
+    font-size: 1cm;
+    background-color: #7e9694;
+    color: #ffffff;
+    height: 60px;
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 1cm;
+    
+}
+.nombre-testimonio:hover{
+  font-size:1.2cm ;
+  transition: font-size 1s;
+}
+.cargo-testimonio{
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.texto-testimonio{
+    font-size: 1.1rem;
+    text-align: justify;
+}

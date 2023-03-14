@@ -1,0 +1,54 @@
+h1{
+  width: 100%;
+text-align: center;
+    font-size: 2.5em;
+  font-weight:normal;
+ background-color:#485657 ;
+  text-align: center;
+color: aliceblue;
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    max-width: 400px;
+    padding: 10px;
+  }
+}
+  h2{
+    
+    font-weight: lighter;
+    font-size: 35px;
+    text-align: center;
+    line-height: 1.1;
+    color:aliceblue ;
+    align-items: center;
+    background-color: #768a8b;
+  }
+  header {
+  background-color:#485657;
+  color: #fff;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+header a {
+  color: #fff;
+  
+  margin-right:24px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    /* Agregar otros estilos según sea necesario */
+  }
+ 
