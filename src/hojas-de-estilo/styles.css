@@ -41,6 +41,11 @@ border-radius: 1cm;
   transform: scale(1.1);
 
 }
+.banderas{
+  height: 1cm;
+  width: 1cm;
+  position: relative;
+}
 .fab.fa-instagram {
     color: #e1306c; /* Establecer el color del icono a rosa */
   }
