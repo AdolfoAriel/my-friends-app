@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import express from 'express';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,8 +19,3 @@ reportWebVitals();
 
 
 
-const app = express()
-
-app.listen(3000, () => console.log("Api turning in the PORT 5001"))
-
-app.get('/', (req,res) => res.json("Mira!! ya logre subir algo a la nube, te amo Sofia <3"))
