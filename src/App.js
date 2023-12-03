@@ -7,14 +7,15 @@ import './App.css';
 function App() {
   return (
     <>
+  
 <div className='App'>
 
 
 <Title/>
+
   <div className='contenedor-principal'>
     
-    <h2>  Conoce a nuestros destacados doctores</h2>
-  
+    
   <Testimonios
   fotoDe='Aileen'
   name='Aileen Leal Bravo'
