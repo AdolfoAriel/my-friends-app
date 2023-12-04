@@ -47,13 +47,14 @@ position: ab;
 border-radius: 1cm;
     height: 75%;
     width: auto;
+
     transition: border 0.5s
      ease-out .5s,transform 0.5s ease-out .5s;
 
 }
 .imagen-testimonio:hover{
   border: 2px solid ;
-  transform: scale(1.1);
+  transform: scale(1.2);
 
 }
 .banderas{
@@ -115,7 +116,7 @@ border-radius: 1cm;
     
 }
 .nombre-testimonio:hover{
-  font-size:1.2cm ;
+  font-size:.8cm ;
   transition: font-size 1s;
 }
 .cargo-testimonio{
@@ -127,4 +128,17 @@ border-radius: 1cm;
 .texto-testimonio{
     font-size: 1.1rem;
     text-align: justify;
+}
+
+
+/*estilos para contacto*/
+
+.contenedor-principal-contacto{
+  margin-top: 2cm;
+}
+
+/*estilos para servicios */
+
+.contenedor-principal-servicios{
+  margin-top: 2cm;
 }
