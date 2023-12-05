@@ -1,4 +1,4 @@
-h1{
+.contenedor-titulo{
   width: 100%;
 text-align: center;
     font-size: 2.7em;
@@ -9,6 +9,11 @@ text-align: center;
 color: aliceblue;
 height: 1.8cm;
 }
+
+.contenedor-rutas{
+  background-color: aqua;
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     max-width: 400px;

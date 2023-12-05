@@ -1,11 +1,13 @@
 import React from 'react'
 import '../hojas-de-estilo/styles.css';
 import { AiOutlineInstagram,AiFillFacebook,AiFillFlag } from "react-icons/ai";
-function Testimonios({imagen,fotoDe,name,pais, ig, fb,especialidad,testimonio,empresa,imag}) {
+import { Link } from 'react-router-dom';
+function Testimonios({imagen,fotoDe,name,pais, ig, fb,especialidad,testimonio,empresa,pagina}) {
   return (
 
     <div className='contenedor-testimonio'>
         <img
+        
         className='imagen-testimonio'
         src={require(`../Images/${imagen}.jpg`)}
         alt={(`foto de ${fotoDe}`)}
@@ -21,17 +23,15 @@ function Testimonios({imagen,fotoDe,name,pais, ig, fb,especialidad,testimonio,em
 <p className='cargo-testimonio'>
     {especialidad} realizo su formación academica en   <strong>{empresa} </strong>
     <br></br>
+    
 </p>
-
+<div>
+<Link to={ `${pagina}`}>Trayectoria</Link>
+</div>
     {pais} 
     <AiFillFlag/>
     
-   { /*<div ><img 
-    className='banderas'
-    src={require(`../Images/${bandera}.jpg`)}
-    alt={( `Bandera de ${pais}`)}/></div>
-    */
-   }
+  
 <p className='texto-testimonio'>
     {testimonio}
 

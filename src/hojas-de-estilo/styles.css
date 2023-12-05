@@ -130,6 +130,20 @@ border-radius: 1cm;
     text-align: justify;
 }
 
+.todos-foto{
+  width: 40%;
+border-radius: 1cm;
+  align-items: center;
+  margin-top: 4cm;
+  margin-left: 13cm;
+  transition: 1s;
+}
+.todos-foto:hover{
+  width: 50%;
+  transition: 1s;
+  align-items: center;
+ border-color: gold; 
+}
 
 /*estilos para contacto*/
 
@@ -141,4 +155,10 @@ border-radius: 1cm;
 
 .contenedor-principal-servicios{
   margin-top: 2cm;
+  
+}
+
+.imagen-hospital{
+  width: 50%;
+  text-align: center;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import Testimonios from '../components/Testimonios'
-
+import all from '../Images/all.jpg'
 function Inicio() {
   return (
     
@@ -59,14 +59,25 @@ function Inicio() {
      fotoDe='Adolfo'
      name='Adolfo Ariel Negreros Jonapa'
      pais=' Mexico'
+
   
-     imagen= 'Adolfo'
+     imagen = 'Adolfo'
      especialidad= 'Medico general con especialidad en neurocirugia'
      testimonio=' '
      empresa='BUAP'
+     pagina='contacto'
      ig='https://www.instagram.com/whosadolfoariel/?img_index=1'
      fb='https://www.facebook.com/adolfo.nj.3/'
      />
+
+     <div className='all'>
+        <img
+        className='todos-foto'
+        src={all}
+        alt='todos'
+        />
+      
+     </div>
     </div>
   )
 }

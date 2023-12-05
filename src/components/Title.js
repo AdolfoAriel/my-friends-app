@@ -23,7 +23,8 @@ function Title() {
 
   return (
     <header className={isSticky ? 'sticky' : ''}>
-     <h1>Hospital Meaden and Heaven <FaHandHoldingMedical/></h1>
+  
+     <h1 className='contenedor-titulo'>Hospital Meaden and Heaven <FaHandHoldingMedical/></h1>
     <Link to="/">Inicio</Link>
     <Link to="Servicios">Servicio</Link>
     <Link to="Contacto">Contacto</Link>
