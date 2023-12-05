@@ -13,6 +13,7 @@ function Inicio() {
     name='Aileen Leal Bravo'
     pais=' Mexico'
     imagen='Ailee'
+    pagina= 'Aileen'
     especialidad='Medica General con especializada en Alergologia'
     testimonio=''
     empresa='BUAP'
@@ -25,6 +26,7 @@ function Inicio() {
   
     name='Danna Gallardo Hernandez'
     imagen='Danna'
+    pagina='Danna'
     especialidad='Medica General con especializada en Anestesiologia y reanimacion'
     testimonio=''
     empresa='BUAP'
@@ -35,7 +37,7 @@ function Inicio() {
     fotoDe='Dayana'
     name='Dayana Maceda Benitez'
     pais=' Venezuela'
-  
+    pagina='Dayana'
     imagen='Dayana'
     especialidad='Medica General con especializada en Infectologia '
     testimonio=''
@@ -45,6 +47,7 @@ function Inicio() {
     />
     <Testimonios
     fotoDe='Jeremy'
+    pagina='Jeremy'
     name='Jeremy Hernandez Saavaedra'
     pais=' Mexico'
   
@@ -58,14 +61,15 @@ function Inicio() {
      <Testimonios
      fotoDe='Adolfo'
      name='Adolfo Ariel Negreros Jonapa'
-     pais=' Mexico'
+     pais='Mexico'
+     pagina='Adolfo'
 
   
      imagen = 'Adolfo'
      especialidad= 'Medico general con especialidad en neurocirugia'
      testimonio=' '
      empresa='BUAP'
-     pagina='contacto'
+     
      ig='https://www.instagram.com/whosadolfoariel/?img_index=1'
      fb='https://www.facebook.com/adolfo.nj.3/'
      />
