@@ -1,6 +1,7 @@
 import React from 'react'
 import Testimonios from '../components/Testimonios'
 import all from '../Images/all.jpg'
+import Introduccion from '../components/Introduccion'
 function Inicio() {
   return (
     
@@ -8,6 +9,8 @@ function Inicio() {
 <div className='contenedor-principal'>
     
     
+
+    <Introduccion/>
     <Testimonios
     fotoDe='Aileen'
     name='Aileen Leal Bravo'

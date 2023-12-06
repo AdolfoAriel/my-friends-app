@@ -2,7 +2,16 @@ import React from 'react'
 
 function Aileen() {
   return (
-    <div>Aileen</div>
+    <div className='contenedor-personal'>
+
+    <p>
+      mi trayectoria
+    
+    </p>
+    <img/>
+    
+    
+        </div>
   )
 }
 

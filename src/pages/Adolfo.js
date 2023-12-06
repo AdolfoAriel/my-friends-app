@@ -2,7 +2,16 @@ import React from 'react'
 
 function Adolfo() {
   return (
-    <div>Adolfo</div>
+    <div className='contenedor-personal'>
+
+<p>
+  mi trayectoria
+
+</p>
+<img/>
+
+
+    </div>
   )
 }
 

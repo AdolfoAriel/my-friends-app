@@ -2,7 +2,16 @@ import React from 'react'
 
 function Jeremy() {
   return (
-    <div>Jeremy</div>
+    <div className='contenedor-personal'>
+
+    <p>
+      mi trayectoria
+    
+    </p>
+    <img/>
+    
+    
+        </div>
   )
 }
 

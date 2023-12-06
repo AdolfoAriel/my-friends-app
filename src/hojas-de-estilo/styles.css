@@ -162,3 +162,17 @@ border-radius: 1cm;
   width: 50%;
   text-align: center;
 }
+/* estilos para las pagina personales */
+
+.contenedor-personal{
+  margin-top: 3cm;
+}
+
+
+/*estilos para el contenedror de la introduccion*/
+
+.contenedor-introduccion{
+  margin-top: 3cm;
+
+  
+}
