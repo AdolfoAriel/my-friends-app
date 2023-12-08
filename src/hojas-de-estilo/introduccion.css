@@ -1,0 +1,28 @@
+/*estilos para el contenedror de la introduccion*/
+
+.contenedor-introduccion{
+    margin-top: 3cm;
+  
+  }
+  /*imagen inicio*/
+  
+  .imagen-inicio{
+  text-align: center;  
+  filter: contrast(120%);
+  padding: 12%;
+  }
+
+  .introduccion-h1{
+text-align: center;
+
+font-family:'glory';
+     padding: 15%
+    };
+
+
+.introduccion-p{
+        text-align:center;
+        font-family:'glory';
+         padding:15%
+        
+        };

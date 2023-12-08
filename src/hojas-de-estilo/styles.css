@@ -13,11 +13,13 @@ position: ab;
     height: 368px;
     margin: 2cm auto auto auto;
     display: flex;
+    padding: 8%;
     position: relative;
     align-items: center;
     background-color: transparent;
     box-shadow: 0 3px 13px 1 px rgb(0 0 0 / 9%);
     transition: width 1s ease-in-out
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -31,6 +33,8 @@ position: ab;
   position:relative;
   width: auto;
   height: auto;
+  align-items: center;
+
 }
 
 .contenedor-testimonio:hover{
@@ -61,6 +65,7 @@ border-radius: 1cm;
   height: 1cm;
   width: 1cm;
   position: relative;
+  padding: 10%;
 }
 .fab.fa-instagram {
     color: #e1306c; /* Establecer el color del icono a rosa */
@@ -106,7 +111,7 @@ border-radius: 1cm;
 
 
 .nombre-testimonio{
-    font-size: .7cm;
+    font-size: .8cm;
     background-color: #657271;
     color: #ffffff;
     height: 40px;
@@ -130,18 +135,18 @@ border-radius: 1cm;
     text-align: justify;
 }
 
+
 .todos-foto{
   width: 40%;
 border-radius: 1cm;
-  align-items: center;
-  margin-top: 4cm;
-  margin-left: 13cm;
-  transition: 1s;
+  text-align: center;
+  transition: 5s;
 }
 .todos-foto:hover{
   width: 50%;
+  margin-left: 10cm;
   transition: 1s;
-  align-items: center;
+ 
  border-color: gold; 
 }
 
@@ -169,10 +174,3 @@ border-radius: 1cm;
 }
 
 
-/*estilos para el contenedror de la introduccion*/
-
-.contenedor-introduccion{
-  margin-top: 3cm;
-
-  
-}

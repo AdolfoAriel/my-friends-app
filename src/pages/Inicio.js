@@ -2,6 +2,7 @@ import React from 'react'
 import Testimonios from '../components/Testimonios'
 import all from '../Images/all.jpg'
 import Introduccion from '../components/Introduccion'
+import '../hojas-de-estilo/introduccion.css'
 function Inicio() {
   return (
     
