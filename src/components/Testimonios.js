@@ -1,6 +1,6 @@
 import React from 'react'
-import '../hojas-de-estilo/styles.css';
-import { AiOutlineInstagram,AiFillFacebook,AiFillFlag } from "react-icons/ai";
+import '../hojas-de-estilo/testimonios.css';
+import { AiOutlineInstagram,AiFillFacebook } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 function Testimonios({imagen,fotoDe,name,pais, ig, fb,especialidad,testimonio,empresa,pagina}) {
   return (
@@ -17,7 +17,7 @@ function Testimonios({imagen,fotoDe,name,pais, ig, fb,especialidad,testimonio,em
 <p className='nombre-testimonio'>
     <strong>{name}</strong> 
     
-    <i class="em em-medical_symbol" aria-role="presentation" aria-label=""></i> 
+    <i class="em em-medical_symbol"  ></i> 
 </p>
 
 <p className='cargo-testimonio'>
@@ -25,11 +25,11 @@ function Testimonios({imagen,fotoDe,name,pais, ig, fb,especialidad,testimonio,em
     <br></br>
     
 </p>
-<div>
-<Link to={ `${pagina}`}>Trayectoria</Link>
+<div className='contenedor-trayectoria'>
+<Link to={ `${pagina}`}>Conoceme</Link>
 </div>
     {pais} 
-    <AiFillFlag/>
+ 
     
   
 <p className='texto-testimonio'>
