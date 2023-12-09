@@ -6,7 +6,6 @@
     margin: 2cm auto auto auto;
     display: flex;
     padding: 8%;
-    position: relative;
     align-items: center;
     background-color: transparent;
     box-shadow: 0 3px 13px 1 px rgb(0 0 0 / 9%);
@@ -16,26 +15,53 @@
 
 @media screen and (max-width: 600px) {
   .contenedor-testimonio {
-    border-color: black;
-    border-radius: 1cm;
-    width: 20rem;
-    height: 10rem;
-    margin: 2cm auto auto auto;
-    display: flex;
-    padding: 8%;
-    position: relative;
-    align-items: center;
-    background-color: transparent;
-    box-shadow: 0 3px 13px 1 px rgb(0 0 0 / 9%);
-    transition: width 1s ease-in-out
+   padding: 0%;
+   margin: auto;
+    display:inline;
+    width:auto;
+
   }
   .imagen-testimonio{
-    max-width: 150px;
-    max-height: 150px;
+    
+  
+max-height: 8rem;
+margin-left: 3cm;
+
   }
+  .contenedor-principal{
+    max-width: 20rem;
+    position: relative;
+    width: auto;
+  }
+  .contenedor-texto-testimonio{
+    text-align: center;
+    font-size: 5px;
+    width: 20rem;
+    padding: 2cm;
+    font-family:kaise opti;
+    color: 4B654C;
+  }
+  .nombre-testimonio{
+    font-size: 4rem;
+    background-color: #657271;
+    color: #ffffff;
+    height: 40px;
+    max-width: 20rem;
+    align-items: center;
+    border-radius: 15px;
+    display: inline-block;
+    
+  }
+
+  .todos-foto{
+ width: 2rem;
+   position: relative;
+  
+  }
+  
 }
 
-.contenedor-principal{
+.contenedor-principal  {
   position:relative;
   width: auto;
   height: auto;
@@ -69,10 +95,10 @@ border-radius: 1cm;
     text-align: center;
     font-size: 19px;
     padding: 40px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:kaise opti;
     font-weight: 400;
     line-height: 2.5rem;
-    color: rgb(174, 180, 185);
+    color: 4B654C;
     
 }
 
@@ -130,14 +156,32 @@ border-radius: 1cm;
 }
 
 
-.todos-foto{
+@keyframes aparicion {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Puedes ajustar la distancia vertical según tus preferencias */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.todos-foto {
   width: 40%;
-margin-left: 9cm;
-border-radius: 3cm;
-padding: 5cm;
-border-radius: 40%;
+  border-radius: 3cm;
+  padding: 5cm;
+  border-radius: 40%;
+  margin: auto;
+  text-align: center;
+  animation: aparicion 3.5s ease-out; 
+ /* 1.5s es la duración de la animación, ease-out para una transición suave al final */
+}
 
 
+.all{
+  display: flex;
+  
 }
 
 

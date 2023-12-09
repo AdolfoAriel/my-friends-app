@@ -1,0 +1,39 @@
+.contenedor-personal{
+    
+    margin-top: 4cm;
+display: grid;
+}
+.foto-profesional{
+    margin: auto;
+    width: 40rem;
+    border-color: aqua;
+    border-radius: 1rem;
+    animation: aparicion 3.5s ease-out; 
+}
+
+.speech{
+    padding: 5cm;
+    margin: auto;
+    text-align: center;
+    font-family: abhaya libre;
+    font-size:larger;
+}
+@media screen and (max-width: 600px) {
+    .contenedor-personal{
+        max-width: 50rem;
+        
+display:grid;
+
+    }
+    .foto-profesional{
+        margin: auto;
+        width: fit-content;
+        display: inline;
+        position:relative
+        }
+    .speech{
+        size: 10rem;
+        padding: 1cm;
+        
+    }
+}

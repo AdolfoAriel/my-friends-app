@@ -6,6 +6,7 @@ import Inicio from './pages/Inicio';
 import Servicios from './pages/Servicios';
 import Contacto from './pages/Contacto';
 import './hojas-de-estilo/Title.css';
+import './hojas-de-estilo/pagina-personal.css';
 import Aileen from './pages/Aileen';
 import Dayana from './pages/Dayana';
 import Danna from './pages/Danna';

@@ -26,10 +26,10 @@ function Title() {
   
      <h1 className='contenedor-titulo'>Hospital Meaden and Heaven <FaHandHoldingMedical/>
      </h1>
-     <div style={{backgroundColor:'#579498'}}>
-    <Link   style={{marginRight:'5cm',marginLeft:'17.5cm'}}  to="/">Inicio</Link>
-    <Link style={{marginRight:'5cm'}}   to="Servicios">Servicio</Link>
-    <Link style={{marginRight:'5cm'}}  to="Contacto">Contacto</Link>
+     <div className='barra-de-navegacion'>
+    <Link  className='barra'   to="/">Inicio</Link>
+    <Link  className='barra'  to="Servicios">Servicio</Link>
+    <Link  className='barra'   to="Contacto">Contacto</Link>
     </div>
     </header>
   );
