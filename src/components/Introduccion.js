@@ -14,13 +14,13 @@ function Introduccion() {
       </div>
 
       <p className="introduccion-p">
-        La salud es un derecho fundamental de todos los seres humanos.
+       " La salud es un derecho fundamental de todos los seres humanos.
         <br />
         Es el estado de completo bienestar físico, mental y social,
         <br />
         y no solo la ausencia de enfermedad. <br />
         La salud es esencial para el desarrollo individual y social, y es un
-        factor clave para la prosperidad de las naciones.
+        factor clave para la prosperidad de las naciones."
       </p>
     </div>
   );
