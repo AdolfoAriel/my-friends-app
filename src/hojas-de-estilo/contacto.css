@@ -1,0 +1,12 @@
+.contenedor-principal-contacto{
+    display: flex;
+    margin: 0;
+}
+
+.numero{
+   padding: 15%;
+    margin: auto;
+    text-align: center;
+    text-transform:uppercase;
+    text-decoration-style:wavy;
+}
