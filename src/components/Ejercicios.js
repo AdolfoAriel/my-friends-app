@@ -1,18 +1,19 @@
 
 export default function Ejercicios1(){
 // ejercicio 1 / 
-//    function tabla(num) {
-//       let result = '';
 
-//       for (let i = 0; i <= 10; i++) {
-//          let operation = i * num;
-//          result += ` ${num} x ${i} = ${operation}|`;
-//       }
-//       return result;
-//    }
+   function tabla(num) {
+      let result = '';
+
+      for (let i = 0; i <= 10; i++) {
+         let operation = i * num;
+         result += ` ${num} x ${i} = ${operation}|`;
+      }
+      return result;
+   }
 
 
-
+console.log(tabla(12));
 
 // ejercicio 2  console.log(tabla(7));
 // */
